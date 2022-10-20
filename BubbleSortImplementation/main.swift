@@ -31,10 +31,9 @@ import Foundation
 var dataSet: [Int] = []
 
 
-dataSet.append(Int.random(in: 1...100))
-dataSet.append(Int.random(in: 1...100))
-dataSet.append(Int.random(in: 1...100))
-
+for _ in 1...10{
+    dataSet.append(Int.random(in: 1...100))
+}
 
 print(dump(dataSet))
 
