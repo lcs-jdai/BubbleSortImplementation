@@ -31,8 +31,10 @@ import Foundation
 var dataSet: [Int] = []
 
 
-dataSet.append(18)
-dataSet.append(36)
-dataSet.append(9)
+dataSet.append(Int.random(in: 1...100))
+dataSet.append(Int.random(in: 1...100))
+dataSet.append(Int.random(in: 1...100))
 
+
+print(dump(dataSet))
 
